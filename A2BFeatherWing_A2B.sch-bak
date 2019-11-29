@@ -1,0 +1,67 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Knochi_Transceivers:AD2428W U2
+U 1 1 5DC50533
+P 3900 3300
+F 0 "U2" H 3900 2261 50  0000 C CNN
+F 1 "AD2428W" H 3900 2170 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 3750 3300 50  0001 C CNN
+F 3 "" H 3750 3300 50  0001 C CNN
+	1    3900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Knochi_Inductors:ACT1210-510-2P-TL00 CM2
+U 1 1 5DC5203D
+P 7150 3000
+F 0 "CM2" H 7150 3325 50  0000 C CNN
+F 1 "ACT1210-510-2P-TL00" H 7150 3234 50  0000 C CNN
+F 2 "Knochi_Filters:CommonModeChoke_TDK_ACT1210" H 7150 3000 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/cmf_automotive_signal_act1210_en.pdf?ref_disty=digikey" H 7150 3000 50  0001 C CNN
+F 4 " 445-172389-1-ND " H 7850 4200 50  0001 L CNN "Digi-Key_PN"
+F 5 "ACT1210-510-2P-TL00" H 7900 4100 50  0001 L CNN "MPN"
+F 6 "Filters" H 7900 4000 50  0001 L CNN "Category"
+F 7 " Common Mode Chokes" H 7850 3900 50  0001 L CNN "Family"
+F 8 "https://product.tdk.com/info/en/catalog/datasheets/cmf_automotive_signal_act1210_en.pdf?ref_disty=digikey" H 7900 3800 50  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/products/en?keywords=445-172389-1-ND" H 7900 3700 50  0001 L CNN "DK_Detail_Page"
+F 10 "CMC 51UH 200MA 2LN SMD AEC-Q200 " H 7900 3600 50  0001 L CNN "Description"
+F 11 "TDK Corporation" H 7900 3500 50  0001 L CNN "Manufacturer"
+F 12 "Active" H 7900 3400 50  0001 L CNN "Status"
+	1    7150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Knochi_Inductors:ACT1210-510-2P-TL00 CM1
+U 1 1 5DC53A34
+P 7050 3750
+F 0 "CM1" H 7050 4075 50  0000 C CNN
+F 1 "ACT1210-510-2P-TL00" H 7050 3984 50  0000 C CNN
+F 2 "Knochi_Filters:CommonModeChoke_TDK_ACT1210" H 7050 3750 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/cmf_automotive_signal_act1210_en.pdf?ref_disty=digikey" H 7050 3750 50  0001 C CNN
+F 4 " 445-172389-1-ND " H 7750 4950 50  0001 L CNN "Digi-Key_PN"
+F 5 "ACT1210-510-2P-TL00" H 7800 4850 50  0001 L CNN "MPN"
+F 6 "Filters" H 7800 4750 50  0001 L CNN "Category"
+F 7 " Common Mode Chokes" H 7750 4650 50  0001 L CNN "Family"
+F 8 "https://product.tdk.com/info/en/catalog/datasheets/cmf_automotive_signal_act1210_en.pdf?ref_disty=digikey" H 7800 4550 50  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/products/en?keywords=445-172389-1-ND" H 7800 4450 50  0001 L CNN "DK_Detail_Page"
+F 10 "CMC 51UH 200MA 2LN SMD AEC-Q200 " H 7800 4350 50  0001 L CNN "Description"
+F 11 "TDK Corporation" H 7800 4250 50  0001 L CNN "Manufacturer"
+F 12 "Active" H 7800 4150 50  0001 L CNN "Status"
+	1    7050 3750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
