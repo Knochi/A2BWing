@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name A2BFeatherWing-rescue)(type Legacy)(uri ${KIPRJMOD}/A2BFeatherWing-rescue.lib)(options "")(descr ""))
+  (lib (name A2BFeatherWing)(type Legacy)(uri ${KIPRJMOD}/A2BFeatherWing.lib)(options "")(descr ""))
+)

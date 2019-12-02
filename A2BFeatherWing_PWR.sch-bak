@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Knochi_Analog:LT1930 U?
+L A2BFeatherWing-rescue:LT1930-Knochi_Analog U?
 U 1 1 5DC5E4DB
 P 4900 3400
 F 0 "U?" H 4550 2850 50  0000 L CNN
