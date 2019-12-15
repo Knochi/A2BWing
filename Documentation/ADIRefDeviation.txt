@@ -1,0 +1,9 @@
+-- Deviations from ADI Reference Schematic Rev2.1, local powered slave --
+- changed R1..R4 Footprint from 1210 to 0603 (0.5W available) (e.g. Vishay CRCW-HP)
+- changed C30, C41 Footprints from 1206 to 0805 (Voltage 16V) (e.g. Murata GCM, GRM, TDK CGA)
+- changed D3 Footprint to from SMA (DO-214AC) to SOD-123 (surge current 2A)
+- hashed D4 (ESD not needed)
+- hashed FB1..FB4, C76,C77 notch-filter (EMC), changed R1..R4 to 113r as recommended by ADI
+
+
+#hashed components are still in the schematic but will ignored for PCB

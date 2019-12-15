@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name A2BFeatherWing)(type KiCad)(uri ${KIPRJMOD}/A2BFeatherWing.pretty)(options "")(descr ""))
+)
