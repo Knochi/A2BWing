@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 5875 900  5875
 Text Label 900  5875 0    50   ~ 0
-WS
+SYNC
 $Comp
 L Jumper:SolderJumper_2_Bridged JP104
 U 1 1 5DF19E5A
@@ -82,8 +82,8 @@ $Comp
 L Jumper:SolderJumper_2_Bridged JP102
 U 1 1 5DF1ABF4
 P 3200 5275
-F 0 "JP102" H 3000 5325 50  0000 C CNN
-F 1 "SD_D11" H 3400 5325 50  0000 C CNN
+F 0 "JP102" H 3200 5425 50  0000 C CNN
+F 1 "SD_D11" H 3425 5325 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 3200 5275 50  0001 C CNN
 F 3 "~" H 3200 5275 50  0001 C CNN
 	1    3200 5275
@@ -232,7 +232,7 @@ Wire Wire Line
 Wire Wire Line
 	4575 5375 4000 5375
 Text Label 4575 5375 2    50   ~ 0
-WS
+SYNC
 Text Label 4575 5475 2    50   ~ 0
 SD_1
 $Comp
@@ -301,7 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2600 5300 2600
 Text Label 5300 2600 0    50   ~ 0
-WS
+SYNC
 Wire Wire Line
 	2775 5575 3275 5575
 Text Label 3275 5575 2    50   ~ 0
@@ -310,4 +310,12 @@ Wire Wire Line
 	5950 2725 5300 2725
 Text Label 5300 2725 0    50   ~ 0
 IRQ
+Text Label 2850 5175 0    50   ~ 0
+SDI
+Text Label 2850 5275 0    50   ~ 0
+SDO
+Text Label 2850 5375 0    50   ~ 0
+WS
+Text Label 2850 5475 0    50   ~ 0
+SD1
 $EndSCHEMATC

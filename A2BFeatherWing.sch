@@ -62,8 +62,8 @@ BCLK
 Wire Wire Line
 	5300 2475 5950 2475
 Wire Wire Line
-	1150 5875 900  5875
-Text Label 900  5875 0    50   ~ 0
+	1000 5675 750  5675
+Text Label 750  5675 0    50   ~ 0
 SYNC
 $Comp
 L Jumper:SolderJumper_2_Bridged JP104
@@ -93,21 +93,6 @@ Wire Wire Line
 	3050 5275 2775 5275
 Wire Wire Line
 	3700 5175 2775 5175
-Text Label 900  5475 0    50   ~ 0
-MCLK
-Wire Wire Line
-	900  5475 1150 5475
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP101
-U 1 1 5DF1F036
-P 1150 5675
-F 0 "JP101" V 1104 5743 50  0000 L CNN
-F 1 "MCLK_D0_WS" V 1195 5743 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 1150 5675 50  0001 C CNN
-F 3 "~" H 1150 5675 50  0001 C CNN
-	1    1150 5675
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	1300 5675 1875 5675
 $Comp
@@ -318,4 +303,15 @@ Text Label 2850 5375 0    50   ~ 0
 WS
 Text Label 2850 5475 0    50   ~ 0
 SD1
+$Comp
+L Jumper:SolderJumper_2_Open JP101
+U 1 1 5DF90C87
+P 1150 5675
+F 0 "JP101" H 1150 5880 50  0000 C CNN
+F 1 "WS_D0" H 1150 5789 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 1150 5675 50  0001 C CNN
+F 3 "~" H 1150 5675 50  0001 C CNN
+	1    1150 5675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
