@@ -1826,8 +1826,8 @@ Wire Notes Line
 	5725 5800 5150 5800
 Wire Notes Line
 	5150 5800 5150 3675
-Text Notes 5125 5900 0    50   ~ 0
-EMC Notch Filter\n
+Text Notes 5125 5975 0    50   ~ 0
+EMC Notch Filter\n(not on PCB)\n
 Text Label 7675 3850 0    50   ~ 0
 B'P
 Text Label 7675 4050 0    50   ~ 0

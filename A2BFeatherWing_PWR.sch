@@ -1903,13 +1903,13 @@ Wire Wire Line
 Wire Notes Line
 	850  4775 4825 4775
 Wire Notes Line
-	4825 4775 4825 7350
+	4825 4775 4825 7100
 Wire Notes Line
-	4825 7350 850  7350
+	4825 7100 850  7100
 Wire Notes Line
-	850  7350 850  4775
-Text Notes 1000 7325 0    50   ~ 0
-Power Select on Feather
+	850  7100 850  4775
+Text Notes 850  7200 0    50   ~ 0
+Power Select on Feather (not on this PCB)\n
 Wire Wire Line
 	3350 2275 3350 2350
 Wire Wire Line
